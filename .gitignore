@@ -1,12 +1,17 @@
 # Jekyll cache
-_site
 .jekyll-cache
+.jekyll-metadata
+_site
+
+# RubyGems
+*.gem
 
 .sass-cache
-.jekyll-metadata
 
 # Bundler cache
+.bundle
 vendor
+Gemfile.lock
 
 # NPM dependencies
 node_modules
